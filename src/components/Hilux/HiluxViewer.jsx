@@ -10,8 +10,8 @@ const HiluxViewer = () => {
       <div id="card">
         <model-viewer
           id="hiluxAr"
-          src="/public/hilux1.glb"
-          ios-src="/public/hilux.usdz"
+          src="/hilux1.glb"
+          ios-src="/hilux.usdz"
           // poster="/public/Hilux.png"
           alt="Hilux"
           shadow-intensity="1"

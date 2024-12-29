@@ -9,8 +9,8 @@ const GoKartViewer = () => {
       <div id="card">
         <model-viewer
           id="goCartAr"
-          src="/public/NewGoCart_1.glb"
-          ios-src="/public/NewGoCart_1.usdz"
+          src="/NewGoCart_1.glb"
+          ios-src="/NewGoCart_1.usdz"
           // poster="/public/GoKart.png"
           alt="Skill Museum's GoKart"
           shadow-intensity="1"
