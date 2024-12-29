@@ -11,7 +11,7 @@ const GoKartViewer = () => {
           id="goCartAr"
           src="/public/NewGoCart_1.glb"
           ios-src="/public/NewGoCart_1.usdz"
-          poster="/public/GoKart.png"
+          // poster="/public/GoKart.png"
           alt="Skill Museum's GoKart"
           shadow-intensity="1"
           ar
