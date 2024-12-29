@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  smarc-ar:
+    build: .
+    container_name: smarc-ar
+    ports:
+      - "3003:3003"
+    networks:
+      - smarc-network
+
+networks:
+  smarc-network:
+    driver: bridge

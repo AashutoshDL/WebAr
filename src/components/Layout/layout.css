@@ -1,0 +1,97 @@
+/* Layout Container */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8, #d9e6f2);
+    min-height: 100vh;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Wrapper */
+.button-wrapper {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Button Styling */
+.custom-button {
+    background: linear-gradient(135deg, #4CAF50, #43A047);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover and Active States */
+.custom-button:hover {
+    background: linear-gradient(135deg, #45a049, #388E3C);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    background: linear-gradient(135deg, #3e8e41, #2E7D32);
+    transform: scale(0.95);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Description Text */
+.description-text {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .description-text {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-button {
+        font-size: 12px;
+        padding: 8px 12px;
+        border-radius: 6px;
+    }
+
+    .description-text {
+        font-size: 11px;
+        padding: 0 5px;
+    }
+}
+
+/* Additional Styles for Appeal */
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(72, 239, 128, 0.5);
+}
+
+.layout-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(to bottom right, #d9e6f2, #f9fbfc);
+    clip-path: circle(70% at 30% 30%);
+}
