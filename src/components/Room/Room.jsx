@@ -10,8 +10,8 @@ const Room = () => {
       <div id="card">
         <model-viewer
           id="smarcAr"
-          src='/Room_1.glb'
-          ios-src="/Room.usdz"
+          src='/public/Room_1.glb'
+          ios-src="/public/Room.usdz"
           // poster="/public/Hilux.png"
           alt="Smarc"
           shadow-intensity="1"
