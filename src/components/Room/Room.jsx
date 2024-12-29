@@ -10,8 +10,8 @@ const Room = () => {
       <div id="card">
         <model-viewer
           id="smarcAr"
-          src='/Room_1.glb'
-          ios-src="/Room.usdz"
+          src='https://models-black.vercel.app/Room_1.glb'
+          ios-src="https://models-black.vercel.app/Room.usdz"
           // poster="/public/Hilux.png"
           alt="Smarc"
           shadow-intensity="1"
